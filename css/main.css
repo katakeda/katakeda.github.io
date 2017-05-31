@@ -13,44 +13,60 @@ body {
 /* line 9, ../sass/main.scss */
 .content-box {
   position: absolute;
-  border-radius: 10px;
+  border: 2px inset;
+  top: 50%;
+  width: 25%;
+  height: 55%;
   transform: translate(-50%, -50%);
-  width: 30%;
-  height: 70%;
   padding: 5px;
 }
-
 /* line 17, ../sass/main.scss */
-.onScroll-navbar {
-  background-color: black;
+.content-box :hover {
+  cursor: pointer;
 }
 
-/* line 20, ../sass/main.scss */
-#my-navbar {
-  border-radius: 0;
+/* line 21, ../sass/main.scss */
+.content-image {
+  width: 100%;
+  height: 60%;
 }
-/* line 22, ../sass/main.scss */
+
+/* line 25, ../sass/main.scss */
+.content-text {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  color: gray;
+  font-family: monospace;
+  padding: 10px;
+}
+
+/* line 33, ../sass/main.scss */
+.onScroll-navbar {
+  transition: all 1s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 37, ../sass/main.scss */
+#my-navbar {
+  padding: 10px 30px 0;
+  border-radius: 0;
+  transition: all 1s ease;
+}
+/* line 41, ../sass/main.scss */
 #my-navbar :hover {
   background-color: transparent;
 }
-/* line 25, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 #my-navbar a {
   color: white;
 }
-/* line 27, ../sass/main.scss */
-#my-navbar a:hover {
-  text-decoration: underline;
-}
-/* line 30, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 #my-navbar a:link {
   background-color: transparent;
 }
-/* line 36, ../sass/main.scss */
-#my-navbar .navbar-header a:hover {
-  text-decoration: none;
-}
 
-/* line 42, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 #bgd-video {
   position: fixed;
   top: 50%;
@@ -64,42 +80,37 @@ body {
   filter: blur(3px);
 }
 
-/* line 54, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 #second-container {
   background-color: white;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 #intro {
   position: absolute;
   color: white;
   text-align: center;
+  font-family: monospace;
   top: 50%;
   left: 50%;
-  width: 40%;
+  width: 45%;
   height: 40%;
   transform: translate(-50%, -50%);
   padding: 5px;
   z-index: 2;
 }
 
-/* line 69, ../sass/main.scss */
-#projects {
-  background-color: dodgerblue;
-  top: 55%;
-  left: 25%;
+/* line 79, ../sass/main.scss */
+#github {
+  left: 20%;
 }
 
-/* line 74, ../sass/main.scss */
-#resume {
-  background-color: red;
-  top: 50%;
+/* line 82, ../sass/main.scss */
+#paper {
   left: 50%;
 }
 
-/* line 79, ../sass/main.scss */
-#paper {
-  background-color: white;
-  top: 60%;
-  left: 75%;
+/* line 85, ../sass/main.scss */
+#resume {
+  left: 80%;
 }
