@@ -17,5 +17,5 @@ function goToResume() {
 }
 
 function goToPaper() {
-  location.href = 'http://kaitake.com/assets/rsa.pdf'
+  location.href = 'http://kaitake.com/assets/rsa.pdf';
 }
