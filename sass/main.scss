@@ -2,11 +2,43 @@ body {
   padding: 0;
   margin: 0;
 }
-
-#main-container {
-
+.my-container {
+  position: relative;
+  height: 100vh;
 }
-
+.content-box {
+  position: absolute;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 70%;
+  padding: 5px;
+}
+.onScroll-navbar {
+  background-color: rgba(0, 0, 0, 1);
+}
+#my-navbar {
+  border-radius: 0;
+  :hover {
+    background-color: transparent;
+  }
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:link {
+      background-color: transparent;
+    }
+  }
+  .navbar-header {
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
 #bgd-video {
   position: fixed;
   top: 50%;
@@ -19,10 +51,11 @@ body {
   z-index: -1;
   filter: blur(3px);
 }
-
-#content {
+#second-container {
+  background-color: white;
+}
+#intro {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   text-align: center;
   top: 50%;
@@ -33,11 +66,18 @@ body {
   padding: 5px;
   z-index: 2;
 }
-
-#my-navbar {
-  border-radius: 0;
+#projects {
+  background-color: dodgerblue;
+  top: 55%;
+  left: 25%;
 }
-
-.nav-text {
-  color: white;
+#resume {
+  background-color: red;
+  top: 50%;
+  left: 50%;
+}
+#paper {
+  background-color: white;
+  top: 60%;
+  left: 75%;
 }

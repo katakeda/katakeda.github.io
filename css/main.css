@@ -4,7 +4,53 @@ body {
   margin: 0;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 5, ../sass/main.scss */
+.my-container {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 9, ../sass/main.scss */
+.content-box {
+  position: absolute;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 70%;
+  padding: 5px;
+}
+
+/* line 17, ../sass/main.scss */
+.onScroll-navbar {
+  background-color: black;
+}
+
+/* line 20, ../sass/main.scss */
+#my-navbar {
+  border-radius: 0;
+}
+/* line 22, ../sass/main.scss */
+#my-navbar :hover {
+  background-color: transparent;
+}
+/* line 25, ../sass/main.scss */
+#my-navbar a {
+  color: white;
+}
+/* line 27, ../sass/main.scss */
+#my-navbar a:hover {
+  text-decoration: underline;
+}
+/* line 30, ../sass/main.scss */
+#my-navbar a:link {
+  background-color: transparent;
+}
+/* line 36, ../sass/main.scss */
+#my-navbar .navbar-header a:hover {
+  text-decoration: none;
+}
+
+/* line 42, ../sass/main.scss */
 #bgd-video {
   position: fixed;
   top: 50%;
@@ -18,10 +64,14 @@ body {
   filter: blur(3px);
 }
 
-/* line 23, ../sass/main.scss */
-#content {
+/* line 54, ../sass/main.scss */
+#second-container {
+  background-color: white;
+}
+
+/* line 57, ../sass/main.scss */
+#intro {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   text-align: center;
   top: 50%;
@@ -33,12 +83,23 @@ body {
   z-index: 2;
 }
 
-/* line 37, ../sass/main.scss */
-#my-navbar {
-  border-radius: 0;
+/* line 69, ../sass/main.scss */
+#projects {
+  background-color: dodgerblue;
+  top: 55%;
+  left: 25%;
 }
 
-/* line 41, ../sass/main.scss */
-.nav-text {
-  color: white;
+/* line 74, ../sass/main.scss */
+#resume {
+  background-color: red;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 79, ../sass/main.scss */
+#paper {
+  background-color: white;
+  top: 60%;
+  left: 75%;
 }
