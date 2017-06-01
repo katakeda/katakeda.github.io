@@ -11,6 +11,17 @@ body {
 }
 
 /* line 9, ../sass/main.scss */
+.nav-text {
+  visibility: hidden;
+}
+
+/* line 12, ../sass/main.scss */
+.onScroll-navbar {
+  transition: all 1s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 16, ../sass/main.scss */
 .content-box {
   position: absolute;
   border: 2px inset;
@@ -20,18 +31,18 @@ body {
   transform: translate(-50%, -50%);
   padding: 5px;
 }
-/* line 17, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .content-box :hover {
   cursor: pointer;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 .content-image {
   width: 100%;
   height: 60%;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 .content-text {
   width: 100%;
   height: 40%;
@@ -39,34 +50,29 @@ body {
   color: gray;
   font-family: monospace;
   padding: 10px;
+  overflow: auto;
 }
 
-/* line 33, ../sass/main.scss */
-.onScroll-navbar {
-  transition: all 1s ease;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-/* line 37, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 #my-navbar {
   padding: 10px 30px 0;
   border-radius: 0;
   transition: all 1s ease;
 }
-/* line 41, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 #my-navbar :hover {
   background-color: transparent;
 }
-/* line 44, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 #my-navbar a {
   color: white;
 }
-/* line 46, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 #my-navbar a:link {
   background-color: transparent;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 #bgd-video {
   position: fixed;
   top: 50%;
@@ -80,12 +86,12 @@ body {
   filter: blur(3px);
 }
 
-/* line 63, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 #second-container {
   background-color: white;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 #intro {
   position: absolute;
   color: white;
@@ -97,20 +103,21 @@ body {
   height: 40%;
   transform: translate(-50%, -50%);
   padding: 5px;
+  visibility: hidden;
   z-index: 2;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 #github {
   left: 20%;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 #paper {
   left: 50%;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 #resume {
   left: 80%;
 }

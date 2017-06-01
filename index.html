@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Kaitaku Takeda</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/hover-min.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
     <link rel="icon" href="assets/favicon.ico" media="screen" title="no title">
@@ -17,24 +18,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">たけ</a>
+          <a class="navbar-brand nav-text" href="#">たけ</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="hvr-trim" href="#">About</a></li>
-            <li><a class="hvr-trim" href="#">Projects</a></li>
-            <li><a class="hvr-trim" href="#">Contact</a></li>
+            <li><a class="nav-text" href="#" onclick="goToAbout()">About</a></li>
+            <li><a class="nav-text" href="#" onclick="goToProjects()">Projects</a></li>
+            <li><a class="nav-text" href="#">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="my-container">
+    <div id="first-container" class="my-container">
       <video id="bgd-video" poster="assets/faucet.jpg" autoplay loop muted>
         <source src="assets/faucet.mp4" type="video/mp4">
       </video>
       <div id="intro">
-        <h1>実は私はたらこが大好き</h1>
-        <p>Hello! My name is Kaitaku Takeda. I'm a Japanese American born and raised in Torrance, California. After graduating from South Torrance High School in 2011, I attended El Camino College and transferred to University of California, Santa Cruz. I am currently a senior pursuing a Bachelor's degree in Computational Mathematics and a minor in Computer Science.</p>
+        <h1 id="intro-title">実は私はたらこが大好き</h1>
+        <p id="intro-text">Hello! My name is Kaitaku Takeda. I'm a Japanese American born and raised in Torrance, California. After graduating from South Torrance High School in 2011, I attended El Camino College and transferred to University of California, Santa Cruz. I am currently a senior pursuing a Bachelor's degree in Computational Mathematics and a minor in Computer Science.</p>
       </div>
     </div>
     <div id="second-container" class="my-container">
@@ -53,7 +54,7 @@
       <div id="resume" class="content-box hvr-glow" onclick="goToResume()">
         <img class="content-image" src="assets/resume.jpg" alt="resume" />
         <div class="content-text">
-          <p>Feel free to take a look at my resume!</p>
+          <p>If you would like to inquire more about my projects and experience please feel free to look at my resume. Thank you!</p>
         </div>
       </div>
     </div>
@@ -61,5 +62,7 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/jquery.lettering.js"></script>
+  <script src="js/jquery.textillate.js"></script>
   <script src="js/main.js" charset="utf-8"></script>
 </html>
