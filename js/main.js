@@ -55,6 +55,12 @@ function goToProjects() {
   }, 'slow');
 }
 
+function goToContacts() {
+  $('html,body').animate({
+    scrollTop: $("#footer").offset().top
+  }, 'slow');
+}
+
 function goToGithub() {
   location.href = 'https://github.com/katakeda';
 }
