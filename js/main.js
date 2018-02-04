@@ -66,9 +66,9 @@ function goToGithub() {
 }
 
 function goToResume() {
-  location.href = 'http://kaitake.com/assets/resume.pdf';
+  location.href = '/assets/resume.pdf';
 }
 
 function goToPaper() {
-  location.href = 'http://kaitake.com/assets/rsa.pdf';
+  location.href = '/assets/rsa.pdf';
 }
