@@ -1,27 +1,17 @@
-/* line 1, ../sass/main.scss */
 body {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 5, ../sass/main.scss */
 .my-container {
   position: relative;
-  height: 100vh;
-}
+  height: 100vh; }
 
-/* line 9, ../sass/main.scss */
 .nav-text {
-  visibility: hidden;
-}
+  visibility: hidden; }
 
-/* line 12, ../sass/main.scss */
 .onScroll-navbar {
-  transition: all 1s ease;
-  background-color: rgba(0, 0, 0, 0.9);
-}
+  background-color: rgba(0, 0, 0, 0.9); }
 
-/* line 16, ../sass/main.scss */
 .content-box {
   position: absolute;
   border: 2px inset;
@@ -29,20 +19,14 @@ body {
   width: 25%;
   height: 55%;
   transform: translate(-50%, -50%);
-  padding: 5px;
-}
-/* line 24, ../sass/main.scss */
-.content-box :hover {
-  cursor: pointer;
-}
+  padding: 5px; }
+  .content-box :hover {
+    cursor: pointer; }
 
-/* line 28, ../sass/main.scss */
 .content-image {
   width: 100%;
-  height: 60%;
-}
+  height: 60%; }
 
-/* line 32, ../sass/main.scss */
 .content-text {
   width: 100%;
   height: 40%;
@@ -50,40 +34,26 @@ body {
   color: gray;
   font-family: monospace;
   padding: 10px;
-  overflow: auto;
-}
+  overflow: auto; }
 
-/* line 41, ../sass/main.scss */
 .fa {
   color: rgba(0, 0, 0, 0.5);
-  margin: 0 10px;
-}
+  margin: 0 10px; }
 
-/* line 45, ../sass/main.scss */
 .fa-copyright {
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 48, ../sass/main.scss */
 #my-navbar {
   padding: 10px 30px 0;
   border-radius: 0;
-  transition: all 1s ease;
-}
-/* line 52, ../sass/main.scss */
-#my-navbar :hover {
-  background-color: transparent;
-}
-/* line 55, ../sass/main.scss */
-#my-navbar a {
-  color: white;
-}
-/* line 57, ../sass/main.scss */
-#my-navbar a:link {
-  background-color: transparent;
-}
+  transition: all 2s ease; }
+  #my-navbar :hover {
+    background-color: transparent; }
+  #my-navbar a {
+    color: white; }
+    #my-navbar a:link {
+      background-color: transparent; }
 
-/* line 62, ../sass/main.scss */
 #bgd-video {
   position: fixed;
   top: 50%;
@@ -94,15 +64,11 @@ body {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
-  filter: blur(3px);
-}
+  filter: blur(3px); }
 
-/* line 74, ../sass/main.scss */
 #second-container {
-  background-color: white;
-}
+  background-color: white; }
 
-/* line 77, ../sass/main.scss */
 #intro {
   position: absolute;
   color: white;
@@ -115,48 +81,38 @@ body {
   transform: translate(-50%, -50%);
   padding: 5px;
   visibility: hidden;
-  z-index: 2;
-}
+  z-index: 2; }
 
-/* line 91, ../sass/main.scss */
+#intro-text {
+  font-size: 16px; }
+
 #github {
-  left: 20%;
-}
+  left: 20%; }
 
-/* line 94, ../sass/main.scss */
 #paper {
-  left: 50%;
-}
+  left: 50%; }
 
-/* line 97, ../sass/main.scss */
 #resume {
-  left: 80%;
-}
+  left: 80%; }
 
-/* line 100, ../sass/main.scss */
 #footer {
   background-color: #f2f2f2;
   border-top: solid 1px lightgray;
   position: relative;
   width: 100%;
   height: 12.5vh;
-  padding: 10px;
-}
+  padding: 10px; }
 
-/* line 108, ../sass/main.scss */
 #footer-contact {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
-/* line 115, ../sass/main.scss */
 #footer-copy {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 9%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
